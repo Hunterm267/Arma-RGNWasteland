@@ -27,7 +27,8 @@ smgArray = compileFinal str
 [
 	["PDW2000 SMG", "hgun_PDW2000_F", 100],
 	["Sting SMG", "SMG_02_F", 125],
-	["Vermin SMG", "SMG_01_F", 125]
+	["Vermin SMG", "SMG_01_F", 125],
+
 ];
 
 rifleArray = compileFinal str
@@ -65,10 +66,18 @@ rifleArray = compileFinal str
 	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
 
 	// Sniper Rifles
+	["ASP-1 Kir Sniper (black)", "srifle_DMR_04_F", 1200],//DLC
+	["ASP-1 Kir Sniper (Tan)", "srifle_DMR_04_Tan_F",1200],//DLC
+	["Cyrus 9.3mm (Black)", "srifle_DMR_05_blk_F", 1100],//DLC
+	["Cyrus 9.3mm (Tan)", "srifle_DMR_05_tan_f", 1100],//DLC
 	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
 	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_SOS_F", 1150],
 	["GM6 Lynx Sniper", "srifle_GM6_SOS_F", 1100],
-	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_SOS_F", 1250]
+	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_SOS_F", 1250],
+	["MK-I EMR (Black)", "srifle_DMR_03_F", 1000],//DLC
+	["MK-I EMR (Camo)", "srifle_DMR_03_multicam_F", 1000],//DLC
+	["MK14 (Camo)", "srifle_DMR_06_camo_F", 1000],//DLC
+	["MK14 (Olive)", "srifle_DMR_06_olive_F", 1000]//DLC
 ];
 
 lmgArray = compileFinal str
@@ -174,9 +183,11 @@ ammoArray = compileFinal str
 	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 25],
 	["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
 	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
+	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 75],
 	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 50],
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 50],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 60],
+	["12.7mm 10Rnd Mag", "10Rnd_127x54_Mag", 75],
 	["RPG-42 Anti-Tank Rocket", "RPG32_F", 250],              // Direct damage: high      | Splash damage: low    | Guidance: none
 	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 250],      // Direct damage: medium    | Splash damage: medium | Guidance: none
 	["PCML Anti-Tank Missile", "NLAW_F", 400],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
@@ -436,10 +447,15 @@ vestArray = compileFinal str
 	["Carrier Lite (Green)", "V_PlateCarrier1_rgr", -1, "vest"],
 	["Carrier Lite (Black)", "V_PlateCarrier1_blk", -1, "vest"],
 	["Carrier Rig (Green)", "V_PlateCarrier3_rgr", -1, "vest"],
-	["Carrier GL Rig (Green)", "V_PlateCarrierGL_rgr", -1, "vest"],
 	["GA Carrier Lite (Digi)", "V_PlateCarrierIA1_dgtl", -1, "vest"],
 	["GA Carrier Rig (Digi)", "V_PlateCarrierIA2_dgtl", -1, "vest"],
+	["Carrier Special Rig (Black),", "V_PlateCarrierSpec_blk", -1, "vest"],
+	["Carrier Special Rig (MTP),", "V_PlateCarrierSpec_mtp", -1, "vest"],
 	["GA Carrier GL Rig (Digi)", "V_PlateCarrierIAGL_dgtl", -1, "vest"],
+	["GA Carrier GL Rig (Olive)", "V_PlateCarrierIAGL_oli", -1, "vest"],
+	["Carrier GL Rig (Black)", "V_PlateCarrierGL_blk", -1, "vest"],
+	["Carrier GL Rig (Green)", "V_PlateCarrierGL_rgr", -1, "vest"],
+	["Carrier GL Rig (MTP)", "V_PlateCarrierGL_mtp", -1, "vest"],
 	["LBV Harness", "V_HarnessO_brn", -1, "vest"],
 	["LBV Harness (Gray)", "V_HarnessO_gry", -1, "vest"],
 	["LBV Grenadier Harness", "V_HarnessOGL_brn", -1, "vest"],
