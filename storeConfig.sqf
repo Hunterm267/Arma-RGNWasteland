@@ -265,7 +265,13 @@ accessoriesArray = compileFinal str
 	["NVS", "optic_NVS", 500, "item"],
 	["TWS", "optic_tws", 5000, "item"],
 	["TWS MG", "optic_tws_mg", 6000, "item"],
-	["Nightstalker", "optic_Nightstalker", 7500, "item"]
+	["Nightstalker", "optic_Nightstalker", 7500, "item"],
+	["Bipod (Black)", "bipod_01_F_blk", 50, "item"],
+	["Bipod (MTP)", "bipod_01_F_mtp", 50, "item"],
+	["Bipod (Sand)", "bipod_01_F_snd", 50, "item"],
+	["Bipod (Hex)", "bipod_02_F_hex", 50, "item"],
+	["Bipod (Tan)", "bipod_02_F_tan", 50, "item"],
+	["Bipod (Olive)", "bipod_03_F_oli", 50, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
