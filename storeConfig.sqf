@@ -254,7 +254,7 @@ accessoriesArray = compileFinal str
 	["ACO (Red)", "optic_Aco", 75, "item"],
 	["ACO (Green)", "optic_Aco_grn", 75, "item"],
 	["Holosight", "optic_Holosight", 75, "item"],
-	["AMS", "optic_AMS", 100, "item"]
+	["AMS", "optic_AMS", 100, "item"],
 	["Kahlia", "optic_KHS_blk", 100, "item"],
 	["MRCO", "optic_MRCO", 100, "item"],
 	["ARCO", "optic_Arco", 125, "item"],
