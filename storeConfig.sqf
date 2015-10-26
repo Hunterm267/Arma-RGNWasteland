@@ -60,31 +60,39 @@ rifleArray = compileFinal str
 	["MX 3GL Rifle (Black)", "arifle_MX_GL_Black_F", 275],
 
 	// Markman Rifles
+	["ASP-1 Kir Sniper (black)", "srifle_DMR_04_F", 1000],//DLC
+	["ASP-1 Kir Sniper (Tan)", "srifle_DMR_04_Tan_F",1000],//DLC
+	["Cyrus 9.3mm (Black)", "srifle_DMR_05_blk_F", 750],//DLC
+	["Cyrus 9.3mm (Tan)", "srifle_DMR_05_tan_f", 750],//DLC
+	["MK-I EMR (Black)", "srifle_DMR_03_F", 500],//DLC
+	["MK-I EMR (Camo)", "srifle_DMR_03_multicam_F", 500],//DLC
+	["MK14 (Camo)", "srifle_DMR_06_camo_F", 450],//DLC
+	["MK14 (Olive)", "srifle_DMR_06_olive_F", 450],//DLC
 	["MXM Rifle", "arifle_MXM_F", 300],
 	["MXM Rifle (Black)", "arifle_MXM_Black_F", 325],
 	["DMR Rifle", "srifle_DMR_01_F", 375],
-	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
+
 
 	// Sniper Rifles
-	["ASP-1 Kir Sniper (black)", "srifle_DMR_04_F", 1200],//DLC
-	["ASP-1 Kir Sniper (Tan)", "srifle_DMR_04_Tan_F",1200],//DLC
-	["Cyrus 9.3mm (Black)", "srifle_DMR_05_blk_F", 1100],//DLC
-	["Cyrus 9.3mm (Tan)", "srifle_DMR_05_tan_f", 1100],//DLC
+	["MAR-10 .338 (Black)", "srifle_DMR_02_F", 1500],//DLC
+	["MAR-10 .338 (Camo)", "srifle_DMR_02_camo_F", 1500],//DLC
 	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
 	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_SOS_F", 1150],
 	["GM6 Lynx Sniper", "srifle_GM6_SOS_F", 1100],
 	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_SOS_F", 1250],
-	["MK-I EMR (Black)", "srifle_DMR_03_F", 1000],//DLC
-	["MK-I EMR (Camo)", "srifle_DMR_03_multicam_F", 1000],//DLC
-	["MK14 (Camo)", "srifle_DMR_06_camo_F", 1000],//DLC
-	["MK14 (Olive)", "srifle_DMR_06_olive_F", 1000]//DLC
+	["Mk18 ABR Rifle", "srifle_EBR_F", 450]
+
 ];
 
 lmgArray = compileFinal str
 [
+	["Navid 9.3mm (Hex)", "MMG_01_hex_F", 425],
+	["Navid 9.3mm (Tan)", "MMG_01_tan_F", 425],
 	["MX SW LMG", "arifle_MX_SW_F", 300],
 	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 325],
 	["Mk200 LMG", "LMG_Mk200_F", 375],
+	["SPMG .338 (Black)", "MMG_02_black_F", 500],
+	["SPMG .338 (MTP)", "MMG_02_Camo_F", 500],
 	["Zafir LMG", "LMG_Zafir_F", 450]
 ];
 
@@ -184,6 +192,9 @@ ammoArray = compileFinal str
 	["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
 	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
 	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 75],
+	["9.3mm 150Rnd Belt,", "150Rnd_93x64_Mag", 125],
+	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 100],
+	[".338 NM 130Rnd Belt", "130Rnd_338_Mag", 150],
 	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 50],
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 50],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 60],
@@ -232,6 +243,8 @@ accessoriesArray = compileFinal str
 	["Suppressor 6.5mm", "muzzle_snds_H", 100, "item"],
 	["Suppressor 6.5mm LMG", "muzzle_snds_H_MG", 125, "item"],
 	["Suppressor 7.62mm", "muzzle_snds_B", 125, "item"],
+	["Suppressor 9.3mm", "muzzle_snds_93mmg", 125, "item"],
+	["Suppressor .338", "muzzle_snds_338_black", 150, "item"],
 	["Flashlight", "acc_flashlight", 25, "item"],
 	["IR Laser Pointer", "acc_pointer_IR", 25, "item"],
 	["Yorris Sight (Zubr Revolver)", "optic_Yorris", 50, "item"],
@@ -241,6 +254,8 @@ accessoriesArray = compileFinal str
 	["ACO (Red)", "optic_Aco", 75, "item"],
 	["ACO (Green)", "optic_Aco_grn", 75, "item"],
 	["Holosight", "optic_Holosight", 75, "item"],
+	["AMS", "optic_AMS", 100, "item"]
+	["Kahlia", "optic_KHS_blk", 100, "item"],
 	["MRCO", "optic_MRCO", 100, "item"],
 	["ARCO", "optic_Arco", 125, "item"],
 	["RCO", "optic_Hamr", 150, "item"],
