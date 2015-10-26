@@ -191,6 +191,8 @@ ammoArray = compileFinal str
 	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 25],
 	["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
 	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
+	["Zafir 150Rnd Box", "150Rnd_762x54_Box", 150],
+	["Zafir 150Rnd Tracer", "150Rnd_762x54_Box_Tracer", 125],
 	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 75],
 	["9.3mm 150Rnd Belt,", "150Rnd_93x64_Mag", 125],
 	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 100],
