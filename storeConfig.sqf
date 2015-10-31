@@ -67,7 +67,7 @@ rifleArray = compileFinal str
 
 	// Sniper Rifles
 	["ASP-1 Kir Sniper (black)", "srifle_DMR_04_F", 1200],//DLC
-	["ASP-1 Kir Sniper (Tan)", "srifle_DMR_04_Tan_F",1200],//DLC
+	["ASP-1 Kir Sniper (Tan)", "srifle_DMR_04_Tan_F", 1200],//DLC
 	["Cyrus 9.3mm (Black)", "srifle_DMR_05_blk_F", 1100],//DLC
 	["Cyrus 9.3mm (Tan)", "srifle_DMR_05_tan_f", 1100],//DLC
 	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
