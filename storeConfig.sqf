@@ -65,6 +65,21 @@ rifleArray = compileFinal str
 	["DMR Rifle", "srifle_DMR_01_F", 375],
 	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
 
+	// DLC Weapons
+	["Mk14 Rifle (Camo) [DLC]", "srifle_DMR_06_camo_F", 450],
+	["Mk14 Rifle (Olive) [DLC]", "srifle_DMR_06_olive_F", 450],
+	["Mk-I EMR Rifle (Black) [DLC]", "srifle_DMR_03_F", 600],
+	["Mk-I EMR Rifle (Camo) [DLC]", "srifle_DMR_03_multicam_F", 600],
+	["Mk-I EMR Rifle (Khaki) [DLC]", "srifle_DMR_03_khaki_F", 600],
+	["Mk-I EMR Rifle (Sand) [DLC]", "srifle_DMR_03_tan_F", 600],
+	["Mk-I EMR Rifle (Woodland) [DLC]", "srifle_DMR_03_woodland_F", 600],
+	["MAR-10 Rifle (Black) [DLC]", "srifle_DMR_02_F", 750],
+	["MAR-10 Rifle (Camo) [DLC]", "srifle_DMR_02_camo_F", 750],
+	["MAR-10 Rifle (Sand) [DLC]", "srifle_DMR_02_sniper_F", 750],
+	["Cyrus Rifle (Black) [DLC]", "srifle_DMR_05_blk_F", 1000],
+	["Cyrus Rifle (Hex) [DLC]", "srifle_DMR_05_hex_F", 1000],
+	["Cyrus Rifle (Tan) [DLC]", "srifle_DMR_05_tan_f", 1000],
+
 	// Sniper Rifles
 	["ASP-1 Kir Sniper (black)", "srifle_DMR_04_F", 1200],//DLC
 	["ASP-1 Kir Sniper (Tan)", "srifle_DMR_04_Tan_F", 1200],//DLC
@@ -159,6 +174,8 @@ throwputArray = compileFinal str
 //Text name, classname, buy cost
 ammoArray = compileFinal str
 [
+	["6Rnd Signal Cylinder (Green)", "6Rnd_GreenSignal_F", 10],
+	["6Rnd Signal Cylinder (Red)", "6Rnd_RedSignal_F", 10],
 	["9mm 16Rnd Mag", "16Rnd_9x21_Mag", 10],
 	["9mm 30Rnd Mag", "30Rnd_9x21_Mag", 15],
 	[".45 ACP 6Rnd Cylinder", "6Rnd_45ACP_Cylinder", 5],
@@ -179,21 +196,24 @@ ammoArray = compileFinal str
 	["6.5mm 100Rnd Tracer (Red) Belt Case", "100Rnd_65x39_caseless_mag_Tracer", 50],
 	["6.5mm 200Rnd Belt Case", "200Rnd_65x39_cased_Box", 150],
 	["6.5mm 200Rnd Tracer (Yellow) Belt Case", "200Rnd_65x39_cased_Box_Tracer", 125],
-	["7.62mm 10Rnd Mag", "10Rnd_762x51_Mag", 15],
-	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 25],
-	["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
-	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
-	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 75],
-	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 50],
-	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 50],
-	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 60],
-	["12.7mm 10Rnd Mag", "10Rnd_127x54_Mag", 75],
-	["RPG-42 Anti-Tank Rocket", "RPG32_F", 250],              // Direct damage: high      | Splash damage: low    | Guidance: none
-	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 250],      // Direct damage: medium    | Splash damage: medium | Guidance: none
+	["7.62mm 10Rnd Mag", "10Rnd_762x54_Mag", 15],
+	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 55],
+	["7.62mm 150Rnd Box", "150Rnd_762x54_Box", 150],
+	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x54_Box_Tracer", 125],
+	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 65], //DLC Ammo
+	[".338 NM 130Rnd Belt", "130Rnd_338_Mag", 150], //DLC Ammo
+	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 650],
+	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 65], //DLC Ammo
+	["9.3mm 150Rnd Belt", "150Rnd_93x64_Mag", 150], //DLC Ammo
+	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 700],
+	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 850],
+	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 175], //DLC Ammo
+	["RPG-42 Anti-Tank Rocket", "RPG32_F", 200],              // Direct damage: high      | Splash damage: low    | Guidance: none
+	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 175],      // Direct damage: medium    | Splash damage: medium | Guidance: none
 	["PCML Anti-Tank Missile", "NLAW_F", 400],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 350],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
-	["Titan Anti-Personnel Missile", "Titan_AP", 350],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
-	["Titan Anti-Air Missile", "Titan_AA", 350],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
+	["Titan Anti-Tank Missile", "Titan_AT", 2500],            // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
+	["Titan Anti-Personnel Missile", "Titan_AP", 1500],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
+	["Titan Anti-Air Missile", "Titan_AA", 2000],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 125],
 	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 250],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
@@ -221,7 +241,6 @@ ammoArray = compileFinal str
 	["40mm 3Rnd Flares (Red)", "3Rnd_UGL_FlareRed_F", 50],
 	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 50]
 ];
-
 //Gun Store item List
 //Text name, classname, buy cost, item class
 accessoriesArray = compileFinal str
@@ -232,6 +251,19 @@ accessoriesArray = compileFinal str
 	["Suppressor 6.5mm", "muzzle_snds_H", 100, "item"],
 	["Suppressor 6.5mm LMG", "muzzle_snds_H_MG", 125, "item"],
 	["Suppressor 7.62mm", "muzzle_snds_B", 125, "item"],
+	["Suppressor .338 [DLC]", "muzzle_snds_338_black", 650, "item"],
+	["Suppressor .338 (Green) [DLC]", "muzzle_snds_338_green", 650, "item"],
+	["Suppressor .338 (Sand) [DLC]", "muzzle_snds_338_sand", 650, "item"],
+	["Suppressor 9.3mm [DLC]", "muzzle_snds_93mmg", 750, "item"],
+	["Suppressor 9.3mm (Tan) [DLC]", "muzzle_snds_93mmg_tan", 750, "item"],
+	["Bipod (NATO)", "bipod_01_F_blk", 650, "item"],
+	["Bipod (CSAT)", "bipod_02_F_blk", 650, "item"],
+	["Bipod (AAF)", "bipod_03_F_blk", 650, "item"],
+	["Bipod (MTP)", "bipod_01_F_mtp", 650, "item"],
+	["Bipod (Hex)", "bipod_02_F_hex", 650, "item"],
+	["Bipod (Olive)", "bipod_03_F_oli", 650, "item"],
+	["Bipod (Sand)", "bipod_01_F_snd", 650, "item"],
+	["Bipod (Tan)", "bipod_02_F_tan", 650, "item"],
 	["Flashlight", "acc_flashlight", 25, "item"],
 	["IR Laser Pointer", "acc_pointer_IR", 25, "item"],
 	["Yorris Sight (Zubr Revolver)", "optic_Yorris", 50, "item"],
@@ -245,12 +277,20 @@ accessoriesArray = compileFinal str
 	["ARCO", "optic_Arco", 125, "item"],
 	["RCO", "optic_Hamr", 150, "item"],
 	["DMS", "optic_DMS", 175, "item"],
+	["AMS [DLC]", "optic_AMS", 200, "item"],
+	["AMS (Khaki) [DLC]", "optic_AMS_khk", 200, "item"],
+	["AMS (Sand) [DLC]", "optic_AMS_snd", 200, "item"],
+	["Kahlia [DLC]", "optic_KHS_blk", 300, "item"],
+	["Kahlia (Hex) [DLC]", "optic_KHS_hex", 300, "item"],
+	["Kahlia (Tan) [DLC]", "optic_KHS_tan", 300, "item"],
+	["Kahlia (Old) [DLC]", "optic_KHS_old", 300, "item"],
 	["LRPS", "optic_LRPS", 175, "item"],
 	["SOS", "optic_SOS", 200, "item"],
 	["NVS", "optic_NVS", 500, "item"],
 	["TWS", "optic_tws", 5000, "item"],
 	["TWS MG", "optic_tws_mg", 6000, "item"],
 	["Nightstalker", "optic_Nightstalker", 7500, "item"]
+
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
